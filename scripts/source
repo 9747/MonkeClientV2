@@ -1,0 +1,1105 @@
+--[[
+
+    Old ugly garbage bedwars gui that doesnt work, lol.
+    
+    Want to paste this awful shit, go right ahead
+    
+]]
+
+local ScreenGui = Instance.new("ScreenGui")
+local Watermark = Instance.new("ImageLabel")
+local Gui = Instance.new("Frame")
+local Visuals = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local World = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local Teleports = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local Exploits = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local Misc = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local Settings = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local UICorner_7 = Instance.new("UICorner")
+local MainFrame = Instance.new("Frame")
+local UICorner_8 = Instance.new("UICorner")
+local Aimbot = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local Killaura = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local TargetStrafe = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local Scaffold = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local Speed = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local NoDelay = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local LongJump = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local Spider = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local VisualsFrame = Instance.new("Frame")
+local UICorner_17 = Instance.new("UICorner")
+local ESP = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local Boxes = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local Health = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local Chams = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local Skeleton = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local ItemESP = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local HUD = Instance.new("TextButton")
+local UICorner_24 = Instance.new("UICorner")
+local WorldFrame = Instance.new("Frame")
+local UICorner_25 = Instance.new("UICorner")
+local PinkColor = Instance.new("TextButton")
+local UICorner_26 = Instance.new("UICorner")
+local BlueColor = Instance.new("TextButton")
+local UICorner_27 = Instance.new("UICorner")
+local MonkeColor = Instance.new("TextButton")
+local UICorner_28 = Instance.new("UICorner")
+local BigFOV = Instance.new("TextButton")
+local UICorner_29 = Instance.new("UICorner")
+local WinterSky = Instance.new("TextButton")
+local UICorner_30 = Instance.new("UICorner")
+local TeleportsFrame = Instance.new("Frame")
+local UICorner_31 = Instance.new("UICorner")
+local ExploitsFrame = Instance.new("Frame")
+local UICorner_32 = Instance.new("UICorner")
+local Fly = Instance.new("TextButton")
+local UICorner_33 = Instance.new("UICorner")
+local KillAll = Instance.new("TextButton")
+local UICorner_34 = Instance.new("UICorner")
+local ExtraLongReach = Instance.new("TextButton")
+local UICorner_35 = Instance.new("UICorner")
+local d_anticheat = Instance.new("TextButton")
+local UICorner_36 = Instance.new("UICorner")
+local Admin = Instance.new("TextButton")
+local UICorner_37 = Instance.new("UICorner")
+local MiscFrame = Instance.new("Frame")
+local UICorner_38 = Instance.new("UICorner")
+local AntiCheater = Instance.new("TextButton")
+local UICorner_39 = Instance.new("UICorner")
+local AntiAim = Instance.new("TextButton")
+local UICorner_40 = Instance.new("UICorner")
+local InfiniteJump = Instance.new("TextButton")
+local UICorner_41 = Instance.new("UICorner")
+local Noclip = Instance.new("TextButton")
+local UICorner_42 = Instance.new("UICorner")
+local AntiBan = Instance.new("TextButton")
+local UICorner_43 = Instance.new("UICorner")
+local LeaveIfMod = Instance.new("TextButton")
+local UICorner_44 = Instance.new("UICorner")
+local MonkeSky = Instance.new("TextButton")
+local UICorner_45 = Instance.new("UICorner")
+local MonkeHat = Instance.new("TextButton")
+local UICorner_46 = Instance.new("UICorner")
+local SettingsFrame = Instance.new("Frame")
+local UICorner_47 = Instance.new("UICorner")
+local DestroyGUI = Instance.new("TextButton")
+local UICorner_48 = Instance.new("UICorner")
+local Main = Instance.new("TextButton")
+local UICorner_49 = Instance.new("UICorner")
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Watermark.Name = "Watermark"
+Watermark.Parent = ScreenGui
+Watermark.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Watermark.BackgroundTransparency = 1.000
+Watermark.Position = UDim2.new(0.795188129, 0, 0.860122681, 0)
+Watermark.Size = UDim2.new(0, 314, 0, 101)
+Watermark.Image = "http://www.roblox.com/asset/?id=10045181501"
+
+Gui.Name = "Gui"
+Gui.Parent = ScreenGui
+Gui.BackgroundColor3 = Color3.fromRGB(129, 64, 0)
+Gui.Position = UDim2.new(0.0882171541, 0, 0.00981595367, 0)
+Gui.Size = UDim2.new(0, 1334, 0, 60)
+Gui.Active = true
+
+Visuals.Name = "Visuals"
+Visuals.Parent = Gui
+Visuals.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Visuals.Position = UDim2.new(0.15012069, 0, 0.0833333358, 0)
+Visuals.Size = UDim2.new(0, 180, 0, 50)
+Visuals.Font = Enum.Font.GothamBold
+Visuals.Text = "Visuals"
+Visuals.TextColor3 = Color3.fromRGB(125, 62, 0)
+Visuals.TextSize = 14.000
+
+UICorner.CornerRadius = UDim.new(0, 13)
+UICorner.Parent = Visuals
+
+World.Name = "World"
+World.Parent = Gui
+World.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+World.Position = UDim2.new(0.287608981, 0, 0.0833333358, 0)
+World.Size = UDim2.new(0, 180, 0, 50)
+World.Font = Enum.Font.GothamBold
+World.Text = "World"
+World.TextColor3 = Color3.fromRGB(125, 62, 0)
+World.TextSize = 14.000
+
+UICorner_2.CornerRadius = UDim.new(0, 13)
+UICorner_2.Parent = World
+
+Teleports.Name = "Teleports"
+Teleports.Parent = Gui
+Teleports.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Teleports.Position = UDim2.new(0.4273462, 0, 0.0833333358, 0)
+Teleports.Size = UDim2.new(0, 180, 0, 50)
+Teleports.Font = Enum.Font.GothamBold
+Teleports.Text = "Teleports"
+Teleports.TextColor3 = Color3.fromRGB(125, 62, 0)
+Teleports.TextSize = 14.000
+
+UICorner_3.CornerRadius = UDim.new(0, 13)
+UICorner_3.Parent = Teleports
+
+Exploits.Name = "Exploits"
+Exploits.Parent = Gui
+Exploits.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Exploits.Position = UDim2.new(0.567047238, 0, 0.0833333358, 0)
+Exploits.Size = UDim2.new(0, 180, 0, 50)
+Exploits.Font = Enum.Font.GothamBold
+Exploits.Text = "Exploits"
+Exploits.TextColor3 = Color3.fromRGB(125, 62, 0)
+Exploits.TextSize = 14.000
+
+UICorner_4.CornerRadius = UDim.new(0, 13)
+UICorner_4.Parent = Exploits
+
+Misc.Name = "Misc"
+Misc.Parent = Gui
+Misc.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Misc.Position = UDim2.new(0.706616819, 0, 0.0833333358, 0)
+Misc.Size = UDim2.new(0, 180, 0, 50)
+Misc.Font = Enum.Font.GothamBold
+Misc.Text = "Misc"
+Misc.TextColor3 = Color3.fromRGB(125, 62, 0)
+Misc.TextSize = 14.000
+
+UICorner_5.CornerRadius = UDim.new(0, 13)
+UICorner_5.Parent = Misc
+
+Settings.Name = "Settings"
+Settings.Parent = Gui
+Settings.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Settings.Position = UDim2.new(0.846114337, 0, 0.0833333358, 0)
+Settings.Size = UDim2.new(0, 180, 0, 50)
+Settings.Font = Enum.Font.GothamBold
+Settings.Text = "Settings"
+Settings.TextColor3 = Color3.fromRGB(125, 62, 0)
+Settings.TextSize = 14.000
+
+UICorner_6.CornerRadius = UDim.new(0, 13)
+UICorner_6.Parent = Settings
+
+UICorner_7.CornerRadius = UDim.new(1, 0)
+UICorner_7.Parent = Gui
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = Gui
+MainFrame.BackgroundColor3 = Color3.fromRGB(129, 64, 0)
+MainFrame.Position = UDim2.new(0.0134932529, 0, 1, 0)
+MainFrame.Size = UDim2.new(0, 175, 0, 500)
+MainFrame.Visible = false
+
+UICorner_8.CornerRadius = UDim.new(0, 13)
+UICorner_8.Parent = MainFrame
+
+Aimbot.Name = "Aimbot"
+Aimbot.Parent = MainFrame
+Aimbot.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Aimbot.BackgroundTransparency = -0.010
+Aimbot.BorderSizePixel = 0
+Aimbot.Position = UDim2.new(-0.00301122759, 0, 0.0253333375, 0)
+Aimbot.Size = UDim2.new(0, 175, 0, 50)
+Aimbot.Font = Enum.Font.GothamBold
+Aimbot.Text = "Aimbot Bow"
+Aimbot.TextColor3 = Color3.fromRGB(125, 62, 0)
+Aimbot.TextSize = 14.000
+
+UICorner_9.CornerRadius = UDim.new(0, 13)
+UICorner_9.Parent = Aimbot
+
+Killaura.Name = "Killaura"
+Killaura.Parent = MainFrame
+Killaura.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Killaura.BackgroundTransparency = -0.010
+Killaura.BorderSizePixel = 0
+Killaura.Position = UDim2.new(-0.00301122759, 0, 0.141333342, 0)
+Killaura.Size = UDim2.new(0, 175, 0, 50)
+Killaura.Font = Enum.Font.GothamBold
+Killaura.Text = "Killaura (F)"
+Killaura.TextColor3 = Color3.fromRGB(125, 62, 0)
+Killaura.TextSize = 14.000
+
+UICorner_10.CornerRadius = UDim.new(0, 13)
+UICorner_10.Parent = Killaura
+
+TargetStrafe.Name = "TargetStrafe"
+TargetStrafe.Parent = MainFrame
+TargetStrafe.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TargetStrafe.BackgroundTransparency = -0.010
+TargetStrafe.BorderSizePixel = 0
+TargetStrafe.Position = UDim2.new(-0.00301122759, 0, 0.26333335, 0)
+TargetStrafe.Size = UDim2.new(0, 175, 0, 50)
+TargetStrafe.Font = Enum.Font.GothamBold
+TargetStrafe.Text = "TargetStrafe"
+TargetStrafe.TextColor3 = Color3.fromRGB(125, 62, 0)
+TargetStrafe.TextSize = 14.000
+
+UICorner_11.CornerRadius = UDim.new(0, 13)
+UICorner_11.Parent = TargetStrafe
+
+Scaffold.Name = "Scaffold"
+Scaffold.Parent = MainFrame
+Scaffold.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Scaffold.BackgroundTransparency = -0.010
+Scaffold.BorderSizePixel = 0
+Scaffold.Position = UDim2.new(-0.00301122759, 0, 0.385333359, 0)
+Scaffold.Size = UDim2.new(0, 175, 0, 50)
+Scaffold.Font = Enum.Font.GothamBold
+Scaffold.Text = "Scaffold (B)"
+Scaffold.TextColor3 = Color3.fromRGB(125, 62, 0)
+Scaffold.TextSize = 14.000
+
+UICorner_12.CornerRadius = UDim.new(0, 13)
+UICorner_12.Parent = Scaffold
+
+Speed.Name = "Speed"
+Speed.Parent = MainFrame
+Speed.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Speed.BackgroundTransparency = -0.010
+Speed.BorderSizePixel = 0
+Speed.Position = UDim2.new(0.00270305807, 0, 0.511333346, 0)
+Speed.Size = UDim2.new(0, 175, 0, 50)
+Speed.Font = Enum.Font.GothamBold
+Speed.Text = "Speed (U)"
+Speed.TextColor3 = Color3.fromRGB(125, 62, 0)
+Speed.TextSize = 14.000
+
+UICorner_13.CornerRadius = UDim.new(0, 13)
+UICorner_13.Parent = Speed
+
+NoDelay.Name = "NoDelay"
+NoDelay.Parent = MainFrame
+NoDelay.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+NoDelay.BackgroundTransparency = -0.010
+NoDelay.BorderSizePixel = 0
+NoDelay.Position = UDim2.new(-0.00301122759, 0, 0.641333342, 0)
+NoDelay.Size = UDim2.new(0, 175, 0, 50)
+NoDelay.Font = Enum.Font.GothamBold
+NoDelay.Text = "NoDelay"
+NoDelay.TextColor3 = Color3.fromRGB(125, 62, 0)
+NoDelay.TextSize = 14.000
+
+UICorner_14.CornerRadius = UDim.new(0, 13)
+UICorner_14.Parent = NoDelay
+
+LongJump.Name = "LongJump"
+LongJump.Parent = MainFrame
+LongJump.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+LongJump.BackgroundTransparency = -0.010
+LongJump.BorderSizePixel = 0
+LongJump.Position = UDim2.new(-0.00301122759, 0, 0.763333321, 0)
+LongJump.Size = UDim2.new(0, 175, 0, 50)
+LongJump.Font = Enum.Font.GothamBold
+LongJump.Text = "LongJump"
+LongJump.TextColor3 = Color3.fromRGB(125, 62, 0)
+LongJump.TextSize = 14.000
+
+UICorner_15.CornerRadius = UDim.new(0, 13)
+UICorner_15.Parent = LongJump
+
+Spider.Name = "Spider"
+Spider.Parent = MainFrame
+Spider.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Spider.BackgroundTransparency = -0.010
+Spider.BorderSizePixel = 0
+Spider.Position = UDim2.new(-0.00301122759, 0, 0.8853333, 0)
+Spider.Size = UDim2.new(0, 175, 0, 50)
+Spider.Font = Enum.Font.GothamBold
+Spider.Text = "Spider"
+Spider.TextColor3 = Color3.fromRGB(125, 62, 0)
+Spider.TextSize = 14.000
+
+UICorner_16.CornerRadius = UDim.new(0, 13)
+UICorner_16.Parent = Spider
+
+VisualsFrame.Name = "VisualsFrame"
+VisualsFrame.Parent = Gui
+VisualsFrame.BackgroundColor3 = Color3.fromRGB(129, 64, 0)
+VisualsFrame.Position = UDim2.new(0.151424289, 0, 1, 0)
+VisualsFrame.Size = UDim2.new(0, 175, 0, 500)
+VisualsFrame.Visible = false
+
+UICorner_17.CornerRadius = UDim.new(0, 13)
+UICorner_17.Parent = VisualsFrame
+
+ESP.Name = "ESP"
+ESP.Parent = VisualsFrame
+ESP.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+ESP.BackgroundTransparency = -0.010
+ESP.BorderSizePixel = 0
+ESP.Position = UDim2.new(0.00270305807, 0, 0.0233333707, 0)
+ESP.Size = UDim2.new(0, 175, 0, 50)
+ESP.Font = Enum.Font.GothamBold
+ESP.Text = "ESP"
+ESP.TextColor3 = Color3.fromRGB(125, 62, 0)
+ESP.TextSize = 14.000
+
+UICorner_18.CornerRadius = UDim.new(0, 13)
+UICorner_18.Parent = ESP
+
+Boxes.Name = "Boxes"
+Boxes.Parent = VisualsFrame
+Boxes.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Boxes.BackgroundTransparency = -0.010
+Boxes.BorderSizePixel = 0
+Boxes.Position = UDim2.new(0.0027030576, 0, 0.139333367, 0)
+Boxes.Size = UDim2.new(0, 175, 0, 50)
+Boxes.Font = Enum.Font.GothamBold
+Boxes.Text = "Boxes"
+Boxes.TextColor3 = Color3.fromRGB(125, 62, 0)
+Boxes.TextSize = 14.000
+
+UICorner_19.CornerRadius = UDim.new(0, 13)
+UICorner_19.Parent = Boxes
+
+Health.Name = "Health"
+Health.Parent = VisualsFrame
+Health.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Health.BackgroundTransparency = -0.010
+Health.BorderSizePixel = 0
+Health.Position = UDim2.new(0.0027030576, 0, 0.26333338, 0)
+Health.Size = UDim2.new(0, 175, 0, 50)
+Health.Font = Enum.Font.GothamBold
+Health.Text = "Health"
+Health.TextColor3 = Color3.fromRGB(125, 62, 0)
+Health.TextSize = 14.000
+
+UICorner_20.CornerRadius = UDim.new(0, 13)
+UICorner_20.Parent = Health
+
+Chams.Name = "Chams"
+Chams.Parent = VisualsFrame
+Chams.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Chams.BackgroundTransparency = -0.010
+Chams.BorderSizePixel = 0
+Chams.Position = UDim2.new(-0.00301122665, 0, 0.385333359, 0)
+Chams.Size = UDim2.new(0, 175, 0, 50)
+Chams.Font = Enum.Font.GothamBold
+Chams.Text = "Chams"
+Chams.TextColor3 = Color3.fromRGB(125, 62, 0)
+Chams.TextSize = 14.000
+
+UICorner_21.CornerRadius = UDim.new(0, 13)
+UICorner_21.Parent = Chams
+
+Skeleton.Name = "Skeleton"
+Skeleton.Parent = VisualsFrame
+Skeleton.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Skeleton.BackgroundTransparency = -0.010
+Skeleton.BorderSizePixel = 0
+Skeleton.Position = UDim2.new(0.0027030576, 0, 0.511333346, 0)
+Skeleton.Size = UDim2.new(0, 175, 0, 50)
+Skeleton.Font = Enum.Font.GothamBold
+Skeleton.Text = "Skeleton"
+Skeleton.TextColor3 = Color3.fromRGB(125, 62, 0)
+Skeleton.TextSize = 14.000
+
+UICorner_22.CornerRadius = UDim.new(0, 13)
+UICorner_22.Parent = Skeleton
+
+ItemESP.Name = "ItemESP"
+ItemESP.Parent = VisualsFrame
+ItemESP.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+ItemESP.BackgroundTransparency = -0.010
+ItemESP.BorderSizePixel = 0
+ItemESP.Position = UDim2.new(-0.00301122805, 0, 0.639333367, 0)
+ItemESP.Size = UDim2.new(0, 175, 0, 50)
+ItemESP.Font = Enum.Font.GothamBold
+ItemESP.Text = "Item ESP"
+ItemESP.TextColor3 = Color3.fromRGB(125, 62, 0)
+ItemESP.TextSize = 14.000
+
+UICorner_23.CornerRadius = UDim.new(0, 13)
+UICorner_23.Parent = ItemESP
+
+HUD.Name = "HUD"
+HUD.Parent = VisualsFrame
+HUD.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+HUD.BackgroundTransparency = -0.010
+HUD.BorderSizePixel = 0
+HUD.Position = UDim2.new(0.0027030576, 0, 0.761333346, 0)
+HUD.Size = UDim2.new(0, 175, 0, 50)
+HUD.Font = Enum.Font.GothamBold
+HUD.Text = "HUD"
+HUD.TextColor3 = Color3.fromRGB(125, 62, 0)
+HUD.TextSize = 14.000
+
+UICorner_24.CornerRadius = UDim.new(0, 13)
+UICorner_24.Parent = HUD
+
+WorldFrame.Name = "WorldFrame"
+WorldFrame.Parent = Gui
+WorldFrame.BackgroundColor3 = Color3.fromRGB(129, 64, 0)
+WorldFrame.Position = UDim2.new(0.289355338, 0, 1, 0)
+WorldFrame.Size = UDim2.new(0, 175, 0, 500)
+WorldFrame.Visible = false
+
+UICorner_25.CornerRadius = UDim.new(0, 13)
+UICorner_25.Parent = WorldFrame
+
+PinkColor.Name = "PinkColor"
+PinkColor.Parent = WorldFrame
+PinkColor.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+PinkColor.BackgroundTransparency = -0.010
+PinkColor.BorderSizePixel = 0
+PinkColor.Position = UDim2.new(0.00270305807, 0, 0.0233333707, 0)
+PinkColor.Size = UDim2.new(0, 175, 0, 50)
+PinkColor.Font = Enum.Font.GothamBold
+PinkColor.Text = "Pink Color"
+PinkColor.TextColor3 = Color3.fromRGB(125, 62, 0)
+PinkColor.TextSize = 14.000
+
+UICorner_26.CornerRadius = UDim.new(0, 13)
+UICorner_26.Parent = PinkColor
+
+BlueColor.Name = "BlueColor"
+BlueColor.Parent = WorldFrame
+BlueColor.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+BlueColor.BackgroundTransparency = -0.010
+BlueColor.BorderSizePixel = 0
+BlueColor.Position = UDim2.new(-0.00301122759, 0, 0.139333367, 0)
+BlueColor.Size = UDim2.new(0, 175, 0, 50)
+BlueColor.Font = Enum.Font.GothamBold
+BlueColor.Text = "Blue Color"
+BlueColor.TextColor3 = Color3.fromRGB(125, 62, 0)
+BlueColor.TextSize = 14.000
+
+UICorner_27.CornerRadius = UDim.new(0, 13)
+UICorner_27.Parent = BlueColor
+
+MonkeColor.Name = "MonkeColor"
+MonkeColor.Parent = WorldFrame
+MonkeColor.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+MonkeColor.BackgroundTransparency = -0.010
+MonkeColor.BorderSizePixel = 0
+MonkeColor.Position = UDim2.new(0.0027030576, 0, 0.261333376, 0)
+MonkeColor.Size = UDim2.new(0, 175, 0, 50)
+MonkeColor.Font = Enum.Font.GothamBold
+MonkeColor.Text = "Monke Color"
+MonkeColor.TextColor3 = Color3.fromRGB(125, 62, 0)
+MonkeColor.TextSize = 14.000
+
+UICorner_28.CornerRadius = UDim.new(0, 13)
+UICorner_28.Parent = MonkeColor
+
+BigFOV.Name = "BigFOV"
+BigFOV.Parent = WorldFrame
+BigFOV.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+BigFOV.BackgroundTransparency = -0.010
+BigFOV.BorderSizePixel = 0
+BigFOV.Position = UDim2.new(0.0027030576, 0, 0.385333359, 0)
+BigFOV.Size = UDim2.new(0, 175, 0, 50)
+BigFOV.Font = Enum.Font.GothamBold
+BigFOV.Text = "Big FOV"
+BigFOV.TextColor3 = Color3.fromRGB(125, 62, 0)
+BigFOV.TextSize = 14.000
+
+UICorner_29.CornerRadius = UDim.new(0, 13)
+UICorner_29.Parent = BigFOV
+
+WinterSky.Name = "WinterSky"
+WinterSky.Parent = WorldFrame
+WinterSky.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+WinterSky.BackgroundTransparency = -0.010
+WinterSky.BorderSizePixel = 0
+WinterSky.Position = UDim2.new(-0.00301122805, 0, 0.511333346, 0)
+WinterSky.Size = UDim2.new(0, 175, 0, 50)
+WinterSky.Font = Enum.Font.GothamBold
+WinterSky.Text = "Winter"
+WinterSky.TextColor3 = Color3.fromRGB(125, 62, 0)
+WinterSky.TextSize = 14.000
+
+UICorner_30.CornerRadius = UDim.new(0, 13)
+UICorner_30.Parent = WinterSky
+
+TeleportsFrame.Name = "TeleportsFrame"
+TeleportsFrame.Parent = Gui
+TeleportsFrame.BackgroundColor3 = Color3.fromRGB(129, 64, 0)
+TeleportsFrame.Position = UDim2.new(0.428785622, 0, 1, 0)
+TeleportsFrame.Size = UDim2.new(0, 175, 0, 500)
+TeleportsFrame.Visible = false
+
+UICorner_31.CornerRadius = UDim.new(0, 13)
+UICorner_31.Parent = TeleportsFrame
+
+ExploitsFrame.Name = "ExploitsFrame"
+ExploitsFrame.Parent = Gui
+ExploitsFrame.BackgroundColor3 = Color3.fromRGB(129, 64, 0)
+ExploitsFrame.Position = UDim2.new(0.568215907, 0, 1, 0)
+ExploitsFrame.Size = UDim2.new(0, 175, 0, 500)
+ExploitsFrame.Visible = false
+
+UICorner_32.CornerRadius = UDim.new(0, 13)
+UICorner_32.Parent = ExploitsFrame
+
+Fly.Name = "Fly"
+Fly.Parent = ExploitsFrame
+Fly.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Fly.BackgroundTransparency = -0.010
+Fly.BorderSizePixel = 0
+Fly.Position = UDim2.new(0.00270305574, 0, 0.0253333412, 0)
+Fly.Size = UDim2.new(0, 175, 0, 50)
+Fly.Font = Enum.Font.GothamBold
+Fly.Text = "Fly (X)"
+Fly.TextColor3 = Color3.fromRGB(125, 62, 0)
+Fly.TextSize = 14.000
+
+UICorner_33.CornerRadius = UDim.new(0, 13)
+UICorner_33.Parent = Fly
+
+KillAll.Name = "KillAll"
+KillAll.Parent = ExploitsFrame
+KillAll.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+KillAll.BackgroundTransparency = -0.010
+KillAll.BorderSizePixel = 0
+KillAll.Position = UDim2.new(0.00270305714, 0, 0.139333338, 0)
+KillAll.Size = UDim2.new(0, 175, 0, 50)
+KillAll.Font = Enum.Font.GothamBold
+KillAll.Text = "Kill All (E)"
+KillAll.TextColor3 = Color3.fromRGB(125, 62, 0)
+KillAll.TextSize = 14.000
+
+UICorner_34.CornerRadius = UDim.new(0, 13)
+UICorner_34.Parent = KillAll
+
+ExtraLongReach.Name = "ExtraLongReach"
+ExtraLongReach.Parent = ExploitsFrame
+ExtraLongReach.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+ExtraLongReach.BackgroundTransparency = -0.010
+ExtraLongReach.BorderSizePixel = 0
+ExtraLongReach.Position = UDim2.new(-0.00301122852, 0, 0.261333346, 0)
+ExtraLongReach.Size = UDim2.new(0, 175, 0, 50)
+ExtraLongReach.Font = Enum.Font.GothamBold
+ExtraLongReach.Text = "Extra Long Reach"
+ExtraLongReach.TextColor3 = Color3.fromRGB(125, 62, 0)
+ExtraLongReach.TextSize = 14.000
+
+UICorner_35.CornerRadius = UDim.new(0, 13)
+UICorner_35.Parent = ExtraLongReach
+
+d_anticheat.Name = "d_anticheat"
+d_anticheat.Parent = ExploitsFrame
+d_anticheat.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+d_anticheat.BackgroundTransparency = -0.010
+d_anticheat.BorderSizePixel = 0
+d_anticheat.Position = UDim2.new(0.00270305667, 0, 0.385333359, 0)
+d_anticheat.Size = UDim2.new(0, 175, 0, 50)
+d_anticheat.Font = Enum.Font.GothamBold
+d_anticheat.Text = "Disable Anti-Cheat"
+d_anticheat.TextColor3 = Color3.fromRGB(125, 62, 0)
+d_anticheat.TextSize = 14.000
+
+UICorner_36.CornerRadius = UDim.new(0, 13)
+UICorner_36.Parent = d_anticheat
+
+Admin.Name = "Admin"
+Admin.Parent = ExploitsFrame
+Admin.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Admin.BackgroundTransparency = -0.010
+Admin.BorderSizePixel = 0
+Admin.Position = UDim2.new(0.00270305667, 0, 0.511333346, 0)
+Admin.Size = UDim2.new(0, 175, 0, 50)
+Admin.Font = Enum.Font.GothamBold
+Admin.Text = "ServerSide Admin"
+Admin.TextColor3 = Color3.fromRGB(125, 62, 0)
+Admin.TextSize = 14.000
+
+UICorner_37.CornerRadius = UDim.new(0, 13)
+UICorner_37.Parent = Admin
+
+MiscFrame.Name = "MiscFrame"
+MiscFrame.Parent = Gui
+MiscFrame.BackgroundColor3 = Color3.fromRGB(129, 64, 0)
+MiscFrame.Position = UDim2.new(0.708395839, 0, 1, 0)
+MiscFrame.Size = UDim2.new(0, 175, 0, 500)
+MiscFrame.Visible = false
+
+UICorner_38.CornerRadius = UDim.new(0, 13)
+UICorner_38.Parent = MiscFrame
+
+AntiCheater.Name = "Anti-Cheater"
+AntiCheater.Parent = MiscFrame
+AntiCheater.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+AntiCheater.BackgroundTransparency = -0.010
+AntiCheater.BorderSizePixel = 0
+AntiCheater.Position = UDim2.new(0.00270305574, 0, 0.0253333412, 0)
+AntiCheater.Size = UDim2.new(0, 175, 0, 50)
+AntiCheater.Font = Enum.Font.GothamBold
+AntiCheater.Text = "Anti Cheater"
+AntiCheater.TextColor3 = Color3.fromRGB(125, 62, 0)
+AntiCheater.TextSize = 14.000
+
+UICorner_39.CornerRadius = UDim.new(0, 13)
+UICorner_39.Parent = AntiCheater
+
+AntiAim.Name = "Anti-Aim"
+AntiAim.Parent = MiscFrame
+AntiAim.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+AntiAim.BackgroundTransparency = -0.010
+AntiAim.BorderSizePixel = 0
+AntiAim.Position = UDim2.new(-0.00301122991, 0, 0.141333342, 0)
+AntiAim.Size = UDim2.new(0, 175, 0, 50)
+AntiAim.Font = Enum.Font.GothamBold
+AntiAim.Text = "Anti Aim"
+AntiAim.TextColor3 = Color3.fromRGB(125, 62, 0)
+AntiAim.TextSize = 14.000
+
+UICorner_40.CornerRadius = UDim.new(0, 13)
+UICorner_40.Parent = AntiAim
+
+InfiniteJump.Name = "InfiniteJump"
+InfiniteJump.Parent = MiscFrame
+InfiniteJump.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+InfiniteJump.BackgroundTransparency = -0.010
+InfiniteJump.BorderSizePixel = 0
+InfiniteJump.Position = UDim2.new(0.00270305574, 0, 0.261333346, 0)
+InfiniteJump.Size = UDim2.new(0, 175, 0, 50)
+InfiniteJump.Font = Enum.Font.GothamBold
+InfiniteJump.Text = "Infinite Jump"
+InfiniteJump.TextColor3 = Color3.fromRGB(125, 62, 0)
+InfiniteJump.TextSize = 14.000
+
+UICorner_41.CornerRadius = UDim.new(0, 13)
+UICorner_41.Parent = InfiniteJump
+
+Noclip.Name = "Noclip"
+Noclip.Parent = MiscFrame
+Noclip.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Noclip.BackgroundTransparency = -0.010
+Noclip.BorderSizePixel = 0
+Noclip.Position = UDim2.new(0.00270305574, 0, 0.385333359, 0)
+Noclip.Size = UDim2.new(0, 175, 0, 50)
+Noclip.Font = Enum.Font.GothamBold
+Noclip.Text = "Noclip"
+Noclip.TextColor3 = Color3.fromRGB(125, 62, 0)
+Noclip.TextSize = 14.000
+
+UICorner_42.CornerRadius = UDim.new(0, 13)
+UICorner_42.Parent = Noclip
+
+AntiBan.Name = "Anti-Ban"
+AntiBan.Parent = MiscFrame
+AntiBan.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+AntiBan.BackgroundTransparency = -0.010
+AntiBan.BorderSizePixel = 0
+AntiBan.Position = UDim2.new(-0.0144398008, 0, 0.511333346, 0)
+AntiBan.Size = UDim2.new(0, 175, 0, 50)
+AntiBan.Font = Enum.Font.GothamBold
+AntiBan.Text = "Anti-Ban"
+AntiBan.TextColor3 = Color3.fromRGB(125, 62, 0)
+AntiBan.TextSize = 14.000
+
+UICorner_43.CornerRadius = UDim.new(0, 13)
+UICorner_43.Parent = AntiBan
+
+LeaveIfMod.Name = "LeaveIfMod"
+LeaveIfMod.Parent = MiscFrame
+LeaveIfMod.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+LeaveIfMod.BackgroundTransparency = -0.010
+LeaveIfMod.BorderSizePixel = 0
+LeaveIfMod.Position = UDim2.new(0.00270305574, 0, 0.639333367, 0)
+LeaveIfMod.Size = UDim2.new(0, 175, 0, 50)
+LeaveIfMod.Font = Enum.Font.GothamBold
+LeaveIfMod.Text = "Leave If Mod Joins"
+LeaveIfMod.TextColor3 = Color3.fromRGB(125, 62, 0)
+LeaveIfMod.TextSize = 14.000
+
+UICorner_44.CornerRadius = UDim.new(0, 13)
+UICorner_44.Parent = LeaveIfMod
+
+MonkeSky.Name = "MonkeSky"
+MonkeSky.Parent = MiscFrame
+MonkeSky.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+MonkeSky.BackgroundTransparency = -0.010
+MonkeSky.BorderSizePixel = 0
+MonkeSky.Position = UDim2.new(0.00270305574, 0, 0.761333346, 0)
+MonkeSky.Size = UDim2.new(0, 175, 0, 50)
+MonkeSky.Font = Enum.Font.GothamBold
+MonkeSky.Text = "Monke Sky"
+MonkeSky.TextColor3 = Color3.fromRGB(125, 62, 0)
+MonkeSky.TextSize = 14.000
+
+UICorner_45.CornerRadius = UDim.new(0, 13)
+UICorner_45.Parent = MonkeSky
+
+MonkeHat.Name = "MonkeHat"
+MonkeHat.Parent = MiscFrame
+MonkeHat.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+MonkeHat.BackgroundTransparency = -0.010
+MonkeHat.BorderSizePixel = 0
+MonkeHat.Position = UDim2.new(0.00270305574, 0, 0.883333325, 0)
+MonkeHat.Size = UDim2.new(0, 175, 0, 50)
+MonkeHat.Font = Enum.Font.GothamBold
+MonkeHat.Text = "NoFall"
+MonkeHat.TextColor3 = Color3.fromRGB(125, 62, 0)
+MonkeHat.TextSize = 14.000
+
+UICorner_46.CornerRadius = UDim.new(0, 13)
+UICorner_46.Parent = MonkeHat
+
+SettingsFrame.Name = "SettingsFrame"
+SettingsFrame.Parent = Gui
+SettingsFrame.BackgroundColor3 = Color3.fromRGB(129, 64, 0)
+SettingsFrame.Position = UDim2.new(0.847826123, 0, 1, 0)
+SettingsFrame.Size = UDim2.new(0, 175, 0, 500)
+SettingsFrame.Visible = false
+
+UICorner_47.CornerRadius = UDim.new(0, 13)
+UICorner_47.Parent = SettingsFrame
+
+DestroyGUI.Name = "DestroyGUI"
+DestroyGUI.Parent = SettingsFrame
+DestroyGUI.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+DestroyGUI.BackgroundTransparency = -0.010
+DestroyGUI.BorderSizePixel = 0
+DestroyGUI.Position = UDim2.new(-0.00301119126, 0, 0.0253333431, 0)
+DestroyGUI.Size = UDim2.new(0, 175, 0, 50)
+DestroyGUI.Font = Enum.Font.GothamBold
+DestroyGUI.Text = "Destroy GUI"
+DestroyGUI.TextColor3 = Color3.fromRGB(125, 62, 0)
+DestroyGUI.TextSize = 14.000
+
+UICorner_48.CornerRadius = UDim.new(0, 13)
+UICorner_48.Parent = DestroyGUI
+
+Main.Name = "Main"
+Main.Parent = Gui
+Main.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Main.BackgroundTransparency = -0.010
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0.0141316289, 0, 0.0833333358, 0)
+Main.Size = UDim2.new(0, 175, 0, 50)
+Main.Font = Enum.Font.GothamBold
+Main.Text = "Main"
+Main.TextColor3 = Color3.fromRGB(125, 62, 0)
+Main.TextSize = 14.000
+
+UICorner_49.CornerRadius = UDim.new(0, 13)
+UICorner_49.Parent = Main
+
+-- Scripts:
+
+local function AUAFPR_fake_script() -- Visuals.VisualsOpener 
+	local script = Instance.new('LocalScript', Visuals)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.MainFrame.Visible = false
+		script.Parent.Parent.VisualsFrame.Visible = true
+		script.Parent.Parent.WorldFrame.Visible = false
+		script.Parent.Parent.TeleportsFrame.Visible = false
+		script.Parent.Parent.ExploitsFrame.Visible = false
+		script.Parent.Parent.MiscFrame.Visible = false
+		script.Parent.Parent.SettingsFrame.Visible = false
+		wait(0.1)
+	end)
+end
+coroutine.wrap(AUAFPR_fake_script)()
+local function MZWOUL_fake_script() -- World.WorldOpener 
+	local script = Instance.new('LocalScript', World)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.MainFrame.Visible = false
+		script.Parent.Parent.VisualsFrame.Visible = false
+		script.Parent.Parent.WorldFrame.Visible = true
+		script.Parent.Parent.TeleportsFrame.Visible = false
+		script.Parent.Parent.ExploitsFrame.Visible = false
+		script.Parent.Parent.MiscFrame.Visible = false
+		script.Parent.Parent.SettingsFrame.Visible = false
+		wait(0.1)
+	end)
+end
+coroutine.wrap(MZWOUL_fake_script)()
+local function LHZVR_fake_script() -- Teleports.TeleportsOpener 
+	local script = Instance.new('LocalScript', Teleports)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.MainFrame.Visible = false
+		script.Parent.Parent.VisualsFrame.Visible = false
+		script.Parent.Parent.WorldFrame.Visible = false
+		script.Parent.Parent.TeleportsFrame.Visible = true
+		script.Parent.Parent.ExploitsFrame.Visible = false
+		script.Parent.Parent.MiscFrame.Visible = false
+		script.Parent.Parent.SettingsFrame.Visible = false
+		wait(0.1)
+	end)
+end
+coroutine.wrap(LHZVR_fake_script)()
+local function JFRHJM_fake_script() -- Exploits.ExploitsOpener 
+	local script = Instance.new('LocalScript', Exploits)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.MainFrame.Visible = false
+		script.Parent.Parent.VisualsFrame.Visible = false
+		script.Parent.Parent.WorldFrame.Visible = false
+		script.Parent.Parent.TeleportsFrame.Visible = false
+		script.Parent.Parent.ExploitsFrame.Visible = true
+		script.Parent.Parent.MiscFrame.Visible = false
+		script.Parent.Parent.SettingsFrame.Visible = false
+		wait(0.1)
+	end)
+end
+coroutine.wrap(JFRHJM_fake_script)()
+local function ZCCZP_fake_script() -- Misc.MiscOpener 
+	local script = Instance.new('LocalScript', Misc)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.MainFrame.Visible = false
+		script.Parent.Parent.VisualsFrame.Visible = false
+		script.Parent.Parent.WorldFrame.Visible = false
+		script.Parent.Parent.TeleportsFrame.Visible = false
+		script.Parent.Parent.ExploitsFrame.Visible = false
+		script.Parent.Parent.MiscFrame.Visible = true
+		script.Parent.Parent.SettingsFrame.Visible = false
+		wait(0.1)
+	end)
+end
+coroutine.wrap(ZCCZP_fake_script)()
+local function QWDCORO_fake_script() -- Settings.SettingsOpener 
+	local script = Instance.new('LocalScript', Settings)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.MainFrame.Visible = false
+		script.Parent.Parent.VisualsFrame.Visible = false
+		script.Parent.Parent.WorldFrame.Visible = false
+		script.Parent.Parent.TeleportsFrame.Visible = false
+		script.Parent.Parent.ExploitsFrame.Visible = false
+		script.Parent.Parent.MiscFrame.Visible = false
+		script.Parent.Parent.SettingsFrame.Visible = true
+		wait(0.1)
+	end)
+end
+coroutine.wrap(QWDCORO_fake_script)()
+local function SVKP_fake_script() -- Killaura.Kill 
+	local script = Instance.new('LocalScript', Killaura)
+
+	-- Clear Connection
+	for i,v in pairs(getconnections(workspace.Coins.ChildAdded)) do
+		if checkcaller() then v:Disable() end
+	end
+	for i,v in pairs(getconnections(game.Players.LocalPlayer:GetMouse().KeyDown)) do
+		if checkcaller() then v:Disable() end
+	end
+	shared.Break = true
+	
+	local Data = require(game:GetService("ReplicatedStorage").Library.Modules.ClientMeta).Replica.Data
+	local Player = game.Players.LocalPlayer
+	local UserInputService = game:GetService("UserInputService")
+	local Toggle = false
+	
+	-- Auto Coins
+	
+	for i,v in pairs(workspace.Coins:GetChildren()) do
+		game.ReplicatedStorage.Remotes.PickupCoin:InvokeServer(tonumber(v.Name))
+		v:Destroy()
+	end
+	workspace.Coins.ChildAdded:Connect(function(v)
+		game.ReplicatedStorage.Remotes.PickupCoin:InvokeServer(tonumber(v.Name))
+		v.Transparency = 1
+		wait(1)
+		v:Destroy()
+	end)
+	
+	-- Toggle
+	game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(key)
+		if key:lower() == "e" then Toggle = not Toggle end    
+	end)
+	
+	wait(.1) -- Break loop on re-run for less lag
+	shared.Break = false
+	
+	-- Main
+	while task.wait() do
+		if Toggle then -- Check is press e
+			spawn(function()
+				local Hit = {}
+	
+				-- Check Object
+				local Special = {
+					["East City"] = "EastCity"
+				}
+	
+				for i,v in pairs(workspace.Buildings[Special[Data.CurrentWorld] or Data.CurrentWorld]:GetChildren()) do
+					local v = v:FindFirstChild("Hitbox")
+					if v and v.Parent.Broken.Value ~= true and Player:DistanceFromCharacter(v.Position) < 25 then
+						table.insert(Hit,{v.Parent,v.Position})
+					end
+				end
+				for i,v in pairs(workspace.Enemies:GetChildren()) do
+					if v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") and v.Humanoid.Health >= 1 then
+						if Player:DistanceFromCharacter(v.HumanoidRootPart.Position) < 25 then
+							table.insert(Hit,{v,v.HumanoidRootPart.Position})
+						end
+					end
+				end
+	
+				-- Invoke
+				local Character = Player.Character
+				local Tool = Character:FindFirstChildOfClass("Tool")
+				game.ReplicatedStorage.Remotes.UseSword:InvokeServer(Tool,Hit)
+			end)
+		end
+		if shared.Break then
+			break
+		end
+	end
+end
+coroutine.wrap(SVKP_fake_script)()
+local function ZLBSQBW_fake_script() -- Fly.Fly 
+	local script = Instance.new('LocalScript', Fly)
+
+	--Not made by me
+	--By lindsay on v3rmillion
+	_G.FLYING = false
+	local LP = game:service('Players').LocalPlayer
+	local T = LP.Character.UpperTorso
+	local CONTROL = {F = 0, B = 0, L = 0, R = 0}
+	local lCONTROL = {F = 0, B = 0, L = 0, R = 0}
+	local SPEED = 5
+	local MOUSE = LP:GetMouse()
+	
+	
+	local function FLY()
+		_G.FLYING = true
+		local BG = Instance.new('BodyGyro', T)
+		local BV = Instance.new('BodyVelocity', T)
+		BG.P = 9e4
+		BG.maxTorque = Vector3.new(9e9, 9e9, 9e9)
+		BG.cframe = T.CFrame
+		BV.velocity = Vector3.new(0, 0.1, 0)
+		BV.maxForce = Vector3.new(9e9, 9e9, 9e9)
+	
+	
+		spawn(function()
+			repeat wait()
+				LP.Character.Humanoid.PlatformStand = true
+				if CONTROL.L + CONTROL.R ~= 0 or CONTROL.F + CONTROL.B ~= 0 then
+					SPEED = 50
+				elseif not (CONTROL.L + CONTROL.R ~= 0 or CONTROL.F + CONTROL.B ~= 0) and SPEED ~= 0 then
+					SPEED = 0
+				end
+				if (CONTROL.L + CONTROL.R) ~= 0 or (CONTROL.F + CONTROL.B) ~= 0 then
+					BV.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (CONTROL.F + CONTROL.B)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(CONTROL.L + CONTROL.R, (CONTROL.F + CONTROL.B) * 0.2, 0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p)) * SPEED
+					lCONTROL = {F = CONTROL.F, B = CONTROL.B, L = CONTROL.L, R = CONTROL.R}
+				elseif (CONTROL.L + CONTROL.R) == 0 and (CONTROL.F + CONTROL.B) == 0 and SPEED ~= 0 then
+					BV.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (lCONTROL.F + lCONTROL.B)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(lCONTROL.L + lCONTROL.R, (lCONTROL.F + lCONTROL.B) * 0.2, 0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p)) * SPEED
+				else
+					BV.velocity = Vector3.new(0, 0.1, 0)
+				end
+				BG.cframe = game.Workspace.CurrentCamera.CoordinateFrame
+			until not _G.FLYING
+			CONTROL = {F = 0, B = 0, L = 0, R = 0}
+			lCONTROL = {F = 0, B = 0, L = 0, R = 0}
+			SPEED = 0
+			BG:destroy()
+			BV:destroy()
+			LP.Character.Humanoid.PlatformStand = false
+		end)
+	end
+	
+	MOUSE.KeyDown:connect(function(KEY)
+		if KEY:lower() == 'w' then
+			CONTROL.F = 1
+		elseif KEY:lower() == 's' then
+			CONTROL.B = -1
+		elseif KEY:lower() == 'a' then
+			CONTROL.L = -1 
+		elseif KEY:lower() == 'd' then 
+			CONTROL.R = 1
+		end
+	end)
+	
+	MOUSE.KeyUp:connect(function(KEY)
+		if KEY:lower() == 'w' then
+			CONTROL.F = 0
+		elseif KEY:lower() == 's' then
+			CONTROL.B = 0
+		elseif KEY:lower() == 'a' then
+			CONTROL.L = 0
+		elseif KEY:lower() == 'd' then
+			CONTROL.R = 0
+		end
+	end)
+	
+	
+	
+	
+	FLY()
+end
+coroutine.wrap(ZLBSQBW_fake_script)()
+local function HXVD_fake_script() -- KillAll.KillAll 
+	local script = Instance.new('LocalScript', KillAll)
+
+	local Target = FindPlayer(Username.Text)
+	if Target and Target.Character then
+		local Character = LocalPlayer.Character or LocalPlayer.CharacterAdded:Wait()
+		local Torso = Character:FindFirstChild("Torso") or Character:FindFirstChild("UpperTorso")
+	
+		local savepos = LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame
+		Torso.Anchored = true
+		local tool = Instance.new("Tool", LocalPlayer.Backpack)
+		local hat = LocalPlayer.Character:FindFirstChildOfClass("Accessory")
+		local hathandle = hat.Handle
+		hathandle.Parent = tool
+		hathandle.Massless = true
+		tool.GripPos = Vector3.new(0, 9e99, 0)
+		tool.Parent = LocalPlayer.Character
+		repeat wait() until LocalPlayer.Character:FindFirstChildOfClass("Tool") ~= nil
+		tool.Grip = CFrame.new(Vector3.new(0, 0, 0))
+		Torso.Anchored = false
+		repeat LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame = Target.Character:FindFirstChild("HumanoidRootPart").CFrame wait()
+		until Target.Character == nil or Target.Character:FindFirstChild("Humanoid").Health <= 0 or LocalPlayer.Character == nil or LocalPlayer.Character:FindFirstChild("Humanoid").Health <= 0 or (Target.Character:FindFirstChild("HumanoidRootPart").Velocity.magnitude - Target.Character:FindFirstChild("Humanoid").WalkSpeed) > (Target.Character:FindFirstChild("Humanoid").WalkSpeed + 20)
+		LocalPlayer.Character:FindFirstChild("Humanoid"):UnequipTools()
+		hathandle.Parent = hat
+		hathandle.Massless = false
+		tool:Destroy()
+		LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame = savepos
+	else
+		warn'no player found named like that or he has no char'
+	end
+end
+coroutine.wrap(HXVD_fake_script)()
+local function SIFQ_fake_script() -- DestroyGUI.Destroy 
+	local script = Instance.new('LocalScript', DestroyGUI)
+
+	
+end
+coroutine.wrap(SIFQ_fake_script)()
+local function LQOUS_fake_script() -- Main.MainOpener 
+	local script = Instance.new('LocalScript', Main)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.MainFrame.Visible = true
+		script.Parent.Parent.VisualsFrame.Visible = false
+		script.Parent.Parent.WorldFrame.Visible = false
+		script.Parent.Parent.TeleportsFrame.Visible = false
+		script.Parent.Parent.ExploitsFrame.Visible = false
+		script.Parent.Parent.MiscFrame.Visible = false
+		script.Parent.Parent.SettingsFrame.Visible = false
+		wait(0.1)
+	end)
+end
+coroutine.wrap(LQOUS_fake_script)()
